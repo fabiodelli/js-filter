@@ -1,0 +1,38 @@
+/* Stile di base del corpo della pagina */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Stile del contenitore principale */
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile dei filtri */
+.filters {
+  margin-top: 10px;
+}
+
+/* Stile del contenitore dell'immagine */
+.image-container {
+  margin-top: 20px;
+  text-align: center; 
+}
+
+/* Stile dell'immagine filtrata */
+#filteredImage {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+  
